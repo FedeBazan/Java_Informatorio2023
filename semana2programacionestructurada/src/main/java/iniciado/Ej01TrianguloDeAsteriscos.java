@@ -12,10 +12,10 @@ public class Ej01TrianguloDeAsteriscos {
             try {
                 System.out.print("\nIngrese numero de filas:");
                 filas=scanner.nextInt();
-                break;
+                break; // este break se aplica si el valor ingresado es correcto
             }catch (InputMismatchException e){
                 System.out.println("ERROR-SE INGRESO UN VALOR INOPERABLE");
-                System.out.print("Se aconseja agregar un numero ENTER POSITIVO");
+                System.out.print("Se aconseja agregar un numero ENTERO POSITIVO");
                 scanner.nextLine();
             }
         }while (true);
