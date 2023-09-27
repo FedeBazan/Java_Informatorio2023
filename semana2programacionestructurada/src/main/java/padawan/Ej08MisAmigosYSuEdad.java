@@ -16,7 +16,7 @@ public class Ej08MisAmigosYSuEdad {
             System.out.print("Ingrese edad: ");
             edad=scanner.nextInt();
             if (edad>=18){
-                System.out.println(""+nombre+" ES MAYOR");
+                System.out.println("Mi nombre es: "+nombre+"\nMi edad es: "+edad);
             } else{
                 System.out.println("El sujeto no es MAYOR");
             }
