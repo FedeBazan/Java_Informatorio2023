@@ -15,7 +15,7 @@ public class ListaAlumnos {
     private ArrayList<Alumno> listaAlumnos = new ArrayList<>();
 
     public void cargarAlumnos (){
-        listaAlumnos.add()
+        listaAlumnos.add("");   
     }
-
+    
 }
