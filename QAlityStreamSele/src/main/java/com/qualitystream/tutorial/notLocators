@@ -1,0 +1,10 @@
+Locators
+
+By locator = By.id("id del elemento") // Identifica de frma UNICA al elemento
+By locator = By.name("name del elemento") // En caso de no tener Id se utiliza el name
+By locator = By.className("class del elemento") // Sirve mas para ubicar varios tipos de elementos y no elementos unicos
+By locator = By.tagName("tag del elemento") // Busca el elemento por el tag HTML
+By locator = By.LinkText("text_link") // Busca los link de la pagina donde coincida
+By locator = By.partialLinkText("text_partil_coincidence")
+By locator = By.cssSelector("input[name='q']")
+By locator = By.xpath("//input[@name='q']") // utilapara encontrar un elemento del documento

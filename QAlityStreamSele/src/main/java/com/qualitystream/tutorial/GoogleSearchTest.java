@@ -23,7 +23,7 @@ public class GoogleSearchTest {
         driver.get("https://www.google.com/");
 
     }
- 
+
     @Test
     public void testGooglePage(){
 
