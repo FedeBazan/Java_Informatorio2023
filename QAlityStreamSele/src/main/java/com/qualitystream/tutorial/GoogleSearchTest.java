@@ -17,11 +17,9 @@ public class GoogleSearchTest {
 
     @Before
     public void setUp(){
-
         System.setProperty("webdriver.chrome.driver","./src/test/resources/chromedriver.exe");
         driver.manage().window().maximize();
         driver.get("https://www.google.com/");
-
     }
 
     @Test
