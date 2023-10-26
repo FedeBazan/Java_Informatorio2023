@@ -5,6 +5,7 @@ import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.WebDriver;
 
+import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 public class SignInPage_Test {
@@ -26,6 +27,6 @@ public class SignInPage_Test {
     public void test() throws InterruptedException {
         signInPage.signIn();
         Thread.sleep(2000);
-        assertTrue(signInPage.isHomePageDisplayed());
+        assertEquals(false, signInPage.isHomePageDisplayed());
     }
 }

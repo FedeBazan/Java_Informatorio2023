@@ -19,13 +19,13 @@ public class Register_Test {
     }
 
     @After
-    public  void tearDown () throws Exception{
-        //driver.quit();
+    public void tearDown () throws Exception{
+        driver.quit();
     }
 
     @Test
     public void test() throws InterruptedException {
         registerPage.registerUser();
-        assertEquals("Note: Your user name is Federator",registerPage.registerUserMessage());
+        assertEquals("Note: Your user name is Federator.",registerPage.registerUserMessage());
     }
 }

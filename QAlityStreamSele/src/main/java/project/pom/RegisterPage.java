@@ -26,9 +26,9 @@ public class RegisterPage extends Base{
         click(registerLinkLocator);
         Thread.sleep(2000);
         if (isDisplayed(registerPageLocator)){
-            type("Fede3000",userNameIdLocator);
+            type("Federator",userNameIdLocator);
             type("pass1",passwordNameLocator);
-            type("pass2",passwordConfirmNameLocator);
+            type("pass1",passwordConfirmNameLocator);
 
             click(submitBtmNameLocator);
         }else {

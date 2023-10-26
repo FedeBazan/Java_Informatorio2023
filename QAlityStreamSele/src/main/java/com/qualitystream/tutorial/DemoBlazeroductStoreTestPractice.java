@@ -57,8 +57,6 @@ public class DemoBlazeroductStoreTestPractice {
             driver.findElement(singUpUsernameIdLocator).sendKeys(user);
             driver.findElement(singUpPasswordIdLocator).sendKeys(password);
             driver.findElement(signUpBtmXpathLocator).click();
-        }else {
-            System.out.println("Website wasn't found.");
         }
         //WebElement alert= ewait.until(EC.alert_is_present());
     }
@@ -70,8 +68,6 @@ public class DemoBlazeroductStoreTestPractice {
             driver.findElement(logInUsernameIdLocator).sendKeys(user);
             driver.findElement(logInPasswordIdLocator).sendKeys(password);
             driver.findElement(logInBtmXpathLocator).click();
-        }else {
-            System.out.println("Website wasn't found.");
         }
     }
 
